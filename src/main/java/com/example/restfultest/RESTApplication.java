@@ -1,6 +1,4 @@
-package com.example;
-
-import org.apache.log4j.Level;
+package com.example.restfultest;
 
 import java.util.HashSet;
 import java.util.Set;
@@ -14,13 +12,13 @@ import javax.ws.rs.core.Application;
  * Created by jonathanhavstad on 7/14/16.
  */
 @ApplicationPath("rest")
-public class RESTFulTestApplication extends Application {
+public class RESTApplication extends Application {
     private static Logger logger = Logger.getLogger("RESTFulTestApplication");
 
     @Override
     public Set<Class<?>> getClasses() {
         final Set<Class<?>> classes = new HashSet<Class<?>>();
-        classes.add(RESTFulTestResource.class);
+        classes.add(XYDataResource.class);
 
         logger.log(java.util.logging.Level.ALL, "Loaded classes for RESTFulTestApplication");
 

@@ -6,7 +6,7 @@
          version="2.4">
     <servlet>
         <display-name>RESTFulTest Application</display-name>
-        <servlet-name>RESTFulTestApplication</servlet-name>
+        <servlet-name>RESTApplication</servlet-name>
         <load-on-startup>1</load-on-startup>
         <description>
             This application is a test of a RESTFul web service.
